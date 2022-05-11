@@ -34,7 +34,7 @@ export default class HomeScreen extends Component {
             <View
               style={styles.headerContainer}
             >
-              <Text style={styles.headerTitle}>Movie Recommendation</Text>
+              <Text style={styles.headerTitle}>Recomendación de películas</Text>
               <Icon
                 name="chevron-right"
                 type="feather"
@@ -49,20 +49,20 @@ export default class HomeScreen extends Component {
 
             <View style={styles.subContainer}>
               <View style={styles.posterContainer}>
-                  {/*Add the component for poster image below*/}
+                  {/*Agrega el componente para la imagen del póster abajo*/}
 
               </View>
               <View style={{flex:0.15}}>
-                 {/*Add the components to show the movie name and other details ( release date & duration) below*/}
+                 {/*Agrega los componentes para mostrar el nombre de la película y otros detalles (fecha de estreno y duración) abajo*/}
 
                 
               </View>
               <View style={styles.ratingContainer}>
-                {/*Add the components to show rating of the movie below*/}
+                {/*Agrega los componentes para mostrar la calificación de la película abajo*/}
                   
               </View>
               <View style={styles.iconButtonContainer}>
-                {/*Add the code for like, dislike and notWatched button below*/}
+                {/*Agrega el código para los botones me gusta, no me gusta y no la he visto abajo*/}
                 
               </View>
             </View>
